@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?><FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage_01" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="230px"
+        android:layout_height="238px"
+        android:layout_gravity="bottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/efficacy_01" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="340px"
+        android:layout_marginTop="250px"
+        android:text="181.8"
+        android:textColor="#9a7430"
+        android:textSize="100px" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="400px"
+        android:text="第1名"
+        android:textColor="#ffffff"
+        android:textSize="35px" />
+    
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="345px"
+        android:layout_marginTop="400px"
+        android:text="第1名"
+        android:textColor="#ffffff"
+        android:textSize="35px" />
+        
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="538px"
+        android:layout_marginTop="400px"
+        android:text="第1名"
+        android:textColor="#ffffff"
+        android:textSize="35px" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="142px"
+        android:layout_height="64px"
+        android:layout_marginLeft="193px"
+        android:layout_marginTop="110px"
+        android:scaleType="fitXY"
+        android:src="@drawable/ben_p_result" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="142px"
+        android:layout_height="64px"
+        android:layout_marginLeft="46px"
+        android:layout_marginTop="110px"
+        android:scaleType="fitXY"
+        android:src="@drawable/leiji_result_selected" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="130px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210px"
+        android:layout_marginTop="632px"
+        android:gravity="center"
+        android:text="788.0"
+        android:textColor="#FFCE00"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="130px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500px"
+        android:layout_marginTop="632px"
+        android:gravity="center"
+        android:text="688.8"
+        android:textColor="#FFCE00"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="80px"
+        android:layout_height="62px"
+        android:layout_marginLeft="22px"
+        android:layout_marginTop="16px" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="67px"
+        android:layout_height="66px"
+        android:layout_marginLeft="629px"
+        android:layout_marginTop="16px" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="74px"
+        android:layout_height="75px"
+        android:layout_marginLeft="94px"
+        android:layout_marginTop="707px" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="74px"
+        android:layout_height="75px"
+        android:layout_marginLeft="386px"
+        android:layout_marginTop="707px" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="41px"
+        android:layout_height="47px"
+        android:layout_marginLeft="285px"
+        android:layout_marginTop="720px"
+        android:scaleType="fitXY"
+        android:src="@drawable/up_red" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="41px"
+        android:layout_height="47px"
+        android:layout_marginLeft="577px"
+        android:layout_marginTop="720px"
+        android:scaleType="fitXY"
+        android:src="@drawable/down_green" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="130px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500px"
+        android:layout_marginTop="903px"
+        android:gravity="center"
+        android:text="438.8"
+        android:textColor="#FFCE00"
+        android:textSize="50px" />
+
+    <ProgressBar
+        android:id="@+id/textView8"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="193px"
+        android:layout_height="10px"
+        android:layout_marginLeft="127px"
+        android:layout_marginTop="897px"
+        android:max="100"
+        android:progress="90"
+        android:progressDrawable="@drawable/progress_style" />
+
+    <ProgressBar
+        android:id="@+id/textView9"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="193px"
+        android:layout_height="10px"
+        android:layout_marginLeft="127px"
+        android:layout_marginTop="950px"
+        android:max="100"
+        android:progress="90" 
+        android:progressDrawable="@drawable/progress_style" />
+    
+    <ProgressBar
+        android:id="@+id/textView10"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="193px"
+        android:layout_height="10px"
+        android:layout_marginLeft="127px"
+        android:layout_marginTop="1003px"
+        android:max="100"
+        android:progress="90"
+        android:progressDrawable="@drawable/progress_style" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="41px"
+        android:layout_height="47px"
+        android:layout_marginLeft="577px"
+        android:layout_marginTop="991px"
+        android:scaleType="fitXY"
+        android:src="@drawable/down_green" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="144px"
+        android:layout_height="150px"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20px"
+        android:layout_marginLeft="230px" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="144px"
+        android:layout_height="150px"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20px"
+        android:layout_marginLeft="394px" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="144px"
+        android:layout_height="150px"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20px"
+        android:layout_marginRight="15px" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="256px"
+        android:layout_height="243px"
+        android:layout_marginLeft="88px"
+        android:layout_marginTop="810px" />
+    
+</FrameLayout>

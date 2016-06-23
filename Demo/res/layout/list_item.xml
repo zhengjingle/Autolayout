@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="658px"
+        android:layout_height="143px"
+        android:layout_alignBottom="@+id/ll_text"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/comments_list" />
+    
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="102px"
+        android:layout_height="102px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="18px"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="152px"
+        android:layout_marginTop="20px"
+        android:text="Alan"
+        android:textColor="#fff8bc"
+        android:textSize="30px" />
+    
+        <LinearLayout
+            android:id="@+id/ll_text"
+            android:layout_width="465px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="152px"
+            android:layout_marginTop="70px"
+            android:orientation="vertical" >
+
+          <TextView
+              android:id="@+id/textView2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:minLines="2"
+              android:text="ff"
+              android:textColor="#fff8bc"
+              android:textSize="21px" />
+          
+           <TextView
+               android:id="@+id/textView5"
+               android:layout_width="wrap_content"
+               android:layout_height="22px" />
+   
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="588px"
+        android:layout_marginTop="19px"
+        android:text="6"
+        android:textColor="#ffff00"
+        android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100px"
+        android:layout_height="35px"
+        android:layout_marginLeft="540px"
+        android:layout_marginTop="19px" />
+
+</RelativeLayout>

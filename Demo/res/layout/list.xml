@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comments" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="183px"
+        android:layout_height="105px" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myRecyclerView1"
+        android:layout_width="657px"
+        android:layout_height="1163px"
+        android:layout_marginLeft="32px"
+        android:layout_marginTop="91px" >
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>
