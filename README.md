@@ -37,7 +37,7 @@ RecyclerView在ViewHolder里调用一下这个方法。
 主要有两种情况：  
 （1）对于那些没涉及到什么尺寸计算的自定义控件，在外面用AutoUtils.auto(this)，随同布局一起适配；或者动态加载时用AutoUtils.auto(view);适配就好了。  
 （2）对于那些涉及尺寸计算的自定义控件，建议修改AutoUtils.auto(view)的代码，把它排除掉：if(view instanceof CustomView)return;//不适配CustomView这个类。  
-然后自己在CustomView这个类里用getDisplayWidthValue()、getDisplayHeightValue()、getDisplayTextSize()这三个方法处理水平、垂直、字体大小的适配。  
+然后自己在CustomView这个类里用getDisplayWidthValue()、getDisplayHeightValue()、getDisplayTextSize()这三个方法处理水平、垂直、字体大小的适配。CustomView类外酌情使用autoMargin()、autoPadding()、autoSize()适配。    
 
 5、平移动画的距离可以用getDisplayWidthValue()、getDisplayHeightValue()来调整。  
 
