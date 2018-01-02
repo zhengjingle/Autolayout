@@ -10,7 +10,7 @@
 1、设计图的数值全部以px（像素）为单位，字体大小也是px。布局按设计图写好，只对设计图的分辨率摆好控件就可以了。   
 
 2、代码里设置设计图的尺寸，例如：  
-AutoUtils.setSize(this, false, 720, 1280);  
+**AutoUtils.setSize(this, false, 720, 1280);**  
 //第一个参数this，是Activity对象。  
 //第二个参数false，是boolean变量，表示没有状态栏。如果你的APP要有状态栏，就设置为true。  
 //第三个参数720，是int变量，是设计尺寸的宽度。  
@@ -22,13 +22,13 @@ AutoUtils.setSize(this, false, 720, 1280);
 
 3、在Activity的onCreate里使用：  
 在setContentView()之后：  
-AutoUtils.auto(this);  
+**AutoUtils.auto(this);**  
 //参数this，是Activity对象。  
 
 这样就可以适配Activity的布局了。  
 
 4、对于Fragment、列表（RecyclerView等）、动态加载的控件，使用：  
-AutoUtils.auto(view);  
+**AutoUtils.auto(view);**  
 //参数view，是View对象。  
 
 凡是需要inflate导入view的地方，或动态生成的控件，用这个方法处理一下就可以。  
