@@ -1,11 +1,11 @@
 # Autolayout
-###一、简单说一下我这个AutoUtils适配屏幕的核心原理：
+### 一、简单说一下我这个AutoUtils适配屏幕的核心原理：  
 1、屏幕的实际尺寸与设计图尺寸，计算出一个比例。  
 2、然后按这个比例调整控件的size（宽高）、padding、margin。  
 3、对于字体大小，则按对角线的比例来调整。  
 （其实对于字体大小，我认为比较完美的解决办法是让美工对于每种分辨率设定一个缩放比例。例如设计图是1280x720，这是标准的1倍；对于1920x1080是1.5倍，如此类推；我们按美工给的比例进行缩放就好了）
 
-###二、使用方法：
+### 二、使用方法：
 1、首先设置设计图的尺寸，例如：  
 AutoUtils.setSize(this, false, 720, 1280);  
 //第一个参数this，是Activity对象。  
@@ -42,7 +42,7 @@ RecyclerView在ViewHolder里调用一下这个方法。
 5、平移动画的距离可以用getDisplayWidthValue()、getDisplayHeightValue()来调整。  
 
 
-###三、一些常见问题：
+### 三、一些常见问题：
 1、TabLayout里的字体大小适配不了？因为没办法直接操作它的TextView，要用自定义标签布局，然后你适配它就可以。  
 2、注意，设置字体大小要用setTextSize(TypedValue.COMPLEX_UNIT_PX,26);加上TypedValue.COMPLEX_UNIT_PX，因为它默认是用SP的。  
 3、现在还不支持圆角的适配，例如CardView的圆角。  
