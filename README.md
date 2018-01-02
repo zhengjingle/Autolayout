@@ -1,4 +1,5 @@
 # Autolayout
+
 ### 一、简单说一下我这个AutoUtils适配屏幕的核心原理：  
 1、屏幕的实际尺寸与设计图尺寸，计算出一个比例。  
 2、然后按这个比例调整控件的size（宽高）、padding、margin。  
@@ -6,7 +7,7 @@
 （其实对于字体大小，我认为比较完美的解决办法是让美工对于每种分辨率设定一个缩放比例。例如设计图是1280x720，这是标准的1倍；对于1920x1080是1.5倍，如此类推；我们按美工给的比例进行缩放就好了）
 
 ### 二、使用方法：
-1、首先设置设计图的尺寸，例如：  
+1、首先设置设计图的尺寸，例如：(布局的数值全部以px为单位)    
 AutoUtils.setSize(this, false, 720, 1280);  
 //第一个参数this，是Activity对象。  
 //第二个参数false，是boolean变量，表示没有状态栏。如果你的APP要有状态栏，就设置为true。  
@@ -50,4 +51,4 @@ RecyclerView在ViewHolder里调用一下这个方法。
 
   
 * 现在AutoUtils有些新调整，Demo里那个是旧的，请直接用这个：https://github.com/zhengjingle/Autolayout/blob/master/src/com/zjl/autolayout/AutoUtils.java
-* 旧的，CSDN上的介绍：http://blog.csdn.net/zhengjingle/article/details/51742839
+* CSDN上的介绍：http://blog.csdn.net/zhengjingle/article/details/51742839
